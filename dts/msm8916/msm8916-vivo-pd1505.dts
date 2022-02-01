@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+#include <skeleton.dtsi>
+
+/ {
+	qcom,msm-id = <206 0>,	<248 0>, <249 0>, <250 0>;
+	qcom,board-id = <8 19>, <8 10>;
+	model = "Vivo Y31 (PD1505)";
+	compatible = "vivo,pd1505", "qcom,msm8916", "lk2nd,device";
+};
