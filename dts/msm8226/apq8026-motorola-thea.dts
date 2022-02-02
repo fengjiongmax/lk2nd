@@ -3,12 +3,13 @@
 /dts-v1/;
 
 #include <skeleton.dtsi>
+#include "../msm8916/motorola-carrier-channel-ids.dtsi"
 
 / {
 	// This is used by the bootloader to find the correct DTB
-	compatible = "motorola,thea","qcom,apq8026", "lk2nd,device";
-	qcom,msm-id = <199 0>, <219 0x20000>;
-    qcom,board-id = <8 0>;
+	compatible = "motorola,thea", "qcom,apq8026", "lk2nd,device";
+	qcom,msm-id = <199 0x84>;
+    qcom,board-id = <131072 0xa>;
 
 	model = "Motorola Moto G LTE (Thea)";
 };
